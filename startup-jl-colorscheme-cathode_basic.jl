@@ -3,7 +3,9 @@
         REPL colorschme definition
         load this during julia startup (not extending OhMyREPL)
         iterm color: Cathode*
-
+    
+    usage:
+                include("/Users/merlinr/repo/julia-pkgs/CathodeJulia/startup-jl-colorscheme-cathode_basic.jl")
     tested:     NO
     author:     merlinr@
  =============================================================================#
@@ -33,3 +35,12 @@ end
 SyntaxHighlighter.add!("CathodeBasic", create_cathode_basic())
 
 colorscheme!("CathodeBasic")
+
+
+# remove the rainbow
+OhMyREPL.enable_pass!("RainbowBrackets", false)
+
+# display the REPL state
+OhMyREPL.showpasses()
+
+

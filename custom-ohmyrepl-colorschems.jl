@@ -24,6 +24,12 @@ colorschemes
 test_colorscheme("Tomorrow24bit")
 
 
+OhMyREPL.showpasses()
+# this shows what is active
+
+
+OhMyREPL.enable_pass!("RainbowBrackets", false)
+# this makes much less carnival looking
 
 # try to make one #
 # =============== #
