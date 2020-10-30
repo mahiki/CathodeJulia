@@ -38,7 +38,7 @@ colorscheme!("CathodeBasic")
 
 
 # remove the rainbow
-OhMyREPL.enable_pass!("RainbowBrackets", false)
+# OhMyREPL.enable_pass!("RainbowBrackets", false)
 
 # display the REPL state
 OhMyREPL.showpasses()
